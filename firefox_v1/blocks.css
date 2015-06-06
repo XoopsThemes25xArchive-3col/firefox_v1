@@ -1,0 +1,121 @@
+/*theme designed by MargkhaR Www.Margkhar.org */
+/*========== listes dans les colonnes ==========*/
+.xo-canvas-column ul {
+	list-style-type:				none;
+	padding:							.5em;
+	margin:							0px;
+}
+.xo-canvas-column ul ul {
+	padding-top:					0em;
+	padding-bottom:				0em;
+	padding-left:					1em;
+
+}
+/* ====== format des cellules dans les colonnes ========*/
+.xo-canvas-column .outer, .xo-canvas-column .outer td {
+	background-color:				#f6f6f6;
+	border:							0px none;
+	color: 							#32529C;
+}
+.xo-canvas-column .outer, .xo-canvas-column .outer img {
+	border: 							0 !important;
+	padding:							0;
+	margin:							0;
+}
+/*===== Styles Colonne de Gauche =======*/
+#xo-canvas-leftcolumn .xo-block {
+	margin-right:					0px;
+}
+#xo-canvas-leftcolumn .xo-blocktitle {
+	padding-bottom:				5px;
+	background-image: 			url(img/btg.gif);
+	font-size:						1em;
+	font-weight:					bold;
+	text-align: 					center;
+	text-transform: 				uppercase;
+	}
+#xo-canvas-leftcolumn .xo-blockcontent {
+	min-height:						60px;
+	padding: 						2px 8px 10px;
+	background-image: 			url(img/bbg.gif);
+}
+* html #xo-canvas-leftcolumn .xo-blockcontent { height: 110px;}
+#xo-canvas-leftcolumn .xo-blockcontent a {
+	background-color: 			inherit;
+}
+#xo-canvas-leftcolumn .xo-blockcontent a:hover {
+	background-color: 			inherit;
+}
+#xo-canvas-leftcolumn img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-leftcolumn img:hover {border: 1px solid #666;}
+/*======== Styles Colonne de Droite ========*/
+#xo-canvas-rightcolumn {
+	margin-left:					0px;
+}
+#xo-canvas-rightcolumn a {
+	background-color: 			inherit;
+}
+#xo-canvas-rightcolumn a:hover {
+	background-color:				inherit;
+
+}
+#xo-canvas-rightcolumn .xo-blocktitle {
+	font-size:						1em;
+	padding-top:5px;
+	font-weight:					bold;
+	color: 							#815E0B;
+	background-image: 			url(img/btg.gif);
+	text-align:						center;
+	text-transform: 				uppercase;
+}	
+#xo-canvas-rightcolumn .xo-blockcontent {
+	padding:							.5em;
+    background-image:      url(img/bbg.gif);
+}
+#xo-canvas-rightcolumn img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-canvas-rightcolumn img:hover {border: 1px solid #666;}
+/* ======= Styles du "Contenu Centre" ===========*/
+.xo-block ul {
+	margin:							0px;
+	padding:							0px;
+	list-style-type:				none;
+}
+#xo-page .xo-blockszone .xo-blocktitle {
+	font-size:						1.2em;
+	font-weight:					bold;
+	color:							#000000;
+	text-align: 					center;
+	margin:							0px .5em;
+	padding:							0px .25em;
+	background-image: 			url(img/btg.gif);
+	height:23px;
+}
+#xo-page .xo-blockszone .xo-blockcontent {
+	padding:							.5em;
+	color:							#666;
+	text-align: 					justify;
+	background-color: 			inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent img {
+	border: 							1px solid #ccc;
+	padding: 						3px;
+	margin: 							3px 3px 0 7px;
+}
+#xo-page .xo-blockszone .xo-blockcontent a {
+	background-color:				inherit;
+}
+#xo-page .xo-blockszone .xo-blockcontent a:hover {
+	background-color:				inherit;
+	text-decoration: 				underline;
+}
+
+
+

@@ -1,0 +1,192 @@
+/*theme designed by MargkhaR Www.Margkhar.org */
+
+@import url(forms.css);
+@import url(blocks.css);
+@import url(content.css);
+
+
+html, body {
+	background:						URL(img/bg.gif);
+	font-family:					"tahoma", Arial, Helvetica, sans-serif;
+	font-size: 						10px;
+	color:							#222;
+	}
+
+* {
+	margin:							0;
+	padding:							0;
+	}
+
+table { width: 					100%;}
+table td {
+	padding: 						0;
+	border-width: 					0;
+	vertical-align: 				top;
+}
+#xo-canvas {
+	margin:							0 auto;
+	width:							900px;
+	background:						#fff;
+	font-size:						1.2em;
+}
+body.theme-dialog #xo-canvas {
+	margin:							0px 6px;
+}
+
+/* ---------- Bannières ---------- */
+#xo-banner {
+	background:						url(img/bg-header.jpg) no-repeat;
+width:900px;
+height:219px;
+}
+/* Keep the ad img centered by using auto-margins and centeredcontainer/leftalignedchild on MSIE */
+#xo-banner-ad {
+	margin-left: 					110px;
+	display: 						block;
+	width:							480px;
+	height:							72px;
+	background:						url(img/bg-ad-top.png) no-repeat;
+	padding:							6px;
+}
+#xo-banner-ad object, #xo-banner-ad img {
+	display:							block;
+}
+
+/*============= Style pour l'include globalnav.html ================*/
+#xo-globalnav {
+	height:							52px;
+	background:						url(img/bg-menu.png) repeat-x;
+	padding:							0 15px;
+	margin:							0;
+}
+* html #xo-globalnav { height: 52px; }
+
+#xo-globalnav .x2-label {
+	display:							none;
+}
+#xo-globalnav li {
+	list-style-type:				none;
+	float:						left;
+	line-height:					52px;
+}
+#xo-globalnav li a {
+	padding:							0 15px;
+	display:							block;
+	color:							#fff;
+	margin-right:					2px;
+	background-color: 			inherit;
+}
+#xo-globalnav li a:hover {
+	background:						url(img/bg-menu-hover.png) no-repeat center center;
+height:52px;
+width:163px;
+text-align:center;
+color:#ffff00;
+}
+/*================= Feed ==========================*/
+
+#xo-feed {}
+/*=============== Affichage Pied de page - Footer  ====================*/
+#xo-footer {
+	clear:							both;
+	height:							121px;
+	background:						 url(img/bg-footer.gif) no-repeat;
+
+}
+#xo-footer .infooter {
+	padding-top:					60px;
+	padding-left:					20px;
+	cursor:							default;
+	color:							#000000;
+	font-size: 						.9em;
+	background-color: 			transparent;
+}
+body.theme-dialog #xo-footer { padding: .2em .5em; font-size:	.8em; }
+#xo-footer a {
+	background-color: 			transparent;
+	color:							#000000;
+	text-decoration:				none;
+}
+#xo-footer a:hover {
+	color: 							#cccccc;
+	background-color: 			transparent;
+	text-decoration:				underline;
+}
+/*================= Zone de contenu ===================*/
+#xo-canvas-content {
+	margin-top:						0px;
+}
+#xo-page {
+	width:							500px;
+	min-height:						400px;
+}
+#xo-canvas-rightcolumn {padding: .5em;}
+#xo-content {
+	clear:							both;
+	padding:							.5em;
+	margin:							0px;
+	color:							#333;
+	background-color:				#fff;
+}
+
+#xo-logger-output {font-size:	.8em;}
+
+/*========== Menu principal dans bloc =============*/
+#mainmenu {
+	background-color: 			#efefef;
+	clear:							both;
+}
+#mainmenu a {
+	padding-top: 					4px;
+	padding-bottom: 				4px;
+	color:							#222 !important;
+	padding-left:					5px;
+	border-bottom:					1px solid #ddd;
+}
+#mainmenu a:hover {
+	background:						#edebed;
+	color:							#6CC4D8 !important;
+	text-decoration: 				none !important;
+	border-bottom:					1px solid #CCCCCC;
+}
+#mainmenu a.menuTop, #mainmenu a.menuMain {padding-left: 8px; }
+#mainmenu a.menuSub {
+	color: 							#815E0B !important;
+	padding-top: 					2px;
+	padding-bottom: 				2px;
+	padding-left: 					20px;
+	font-size:						.8em;
+	font-style: 					italic;
+	background-color:				inherit;
+}
+#mainmenu a.menuSub:hover {
+	color:							#6CC4D8 !important;
+	background-color: 			inherit;
+	border-bottom:					1px solid #CCCCCC;
+}
+
+/*============ Menu utilisateur dans bloc ============*/
+#usermenu a {
+	display: 						block;
+	margin: 							0;
+	padding: 						2px;
+	font-weight: 					normal;
+	font-size: 						0.9em;
+	line-height: 					1em;
+	background-color: 			inherit;
+}
+#usermenu a:hover {
+	padding-left: 					1.5em;
+	font-style: 					italic;
+	text-decoration:				none !important;
+	background-color: 			inherit;
+}
+#usermenu a.menuTop {}
+#usermenu a.highlight {
+	background-color: 			#333;
+	color: 							#ccc;
+}
+
+/*=========== Règles nécessaires pour les anciens templates des modules ============*/
+#usermenu a, #mainmenu a {	display: block;}
+.xo-canvas-column .menuSub { padding-left: 1em;}
